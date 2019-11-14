@@ -1,0 +1,28 @@
+nav{
+    background-color: #1ca68d;
+    box-shadow: 5px 5px 5px;
+}
+
+#elements{
+    padding-left: 81%;
+}
+
+nav a{
+  color: white;
+}
+
+body{
+  background-image: url("../img/end.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.end{
+  background-color: white;
+  text-align: center;
+  height: 6em;
+}
+
+.end p{
+  font-size: 3em;
+}

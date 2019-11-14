@@ -1,0 +1,29 @@
+nav{
+    background-color: #1ca68d;
+    box-shadow: 5px 5px 5px;
+}
+
+#elements{
+    padding-left: 81%;
+}
+
+nav a{
+  color: white;
+}
+
+body{
+  background-image: url("../img/mess.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 190%; 
+}
+
+.form-group{
+  padding-top: 1%;
+  width: 42%;
+  float: center;
+}
+
+.for{
+  margin-top: 6%;
+  margin-left: 36%;
+}

@@ -1,0 +1,64 @@
+nav{
+    background-color: #1ca68d;
+    box-shadow: 5px 5px 5px;
+}
+
+#elements{
+    padding-left: 81%;
+}
+
+nav a{
+  color: white;
+}
+
+body{
+  background-image: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first_box{
+  margin-top: 10%;
+  position:relative;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Big Shoulders Text', cursive;
+}
+
+#sea{
+  background-color: #319914;
+  border-radius: 2px;
+  border: none;
+  font-weight: 600;
+  height: 50px;
+  width: 90px;
+  position: fixed;
+}
+
+#box{
+  height: 50px;
+  width: 60%;
+  border-radius: 2px;
+  border: none;
+  padding-left: 20px;
+  font-weight: 600;
+  position: sticky;
+}
+
+img{
+    height: 80px;
+}
+
+.card-deck{
+    /* opacity: 0.5%; */
+    width: 35rem;
+    margin-left: 30%;
+    margin-top: 4%;
+}
+
+.card{
+  overflow: hidden;
+  background-blend-mode: screen;
+  /* opacity: 0.5%; */
+  color: black;
+}

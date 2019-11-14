@@ -1,0 +1,18 @@
+nav{
+    background-color: #1ca68d;
+    box-shadow: 5px 5px 5px;
+}
+
+#elements{
+    padding-left: 81%;
+}
+
+nav a{
+  color: white;
+}
+
+body{
+  background-image: url("../img/results.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

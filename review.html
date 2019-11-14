@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Find Ur College</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/review.css">
+  </head>
+  <body>
+    <nav class="navbar stick-top navbar-expand-lg" >
+    <a class="navbar-brand" href="homepage.html" >FINDuRCOLLEGE.COM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <div class="navbar-nav" id="elements">
+          <a class="nav-item nav-link active" href="message.html">Notifications</a>
+          <a class="nav-item nav-link active" href="review.html">Reviews</a>
+          <a class="nav-item nav-link active" href="results.html">Exams</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="for">
+      <form class="review_form" action="endpage.html" method="post">
+        <div class="form-group">
+          <label for="emid">Email address </label>
+          <input id="emid" class="form-control" type="email" name="" placeholder="Enter email address" required>
+        </div>
+        <div class="form-group">
+          <label for="ins">Institution</label>
+          <input id="ins" class="form-control" type="text" name="" placeholder="Enter the name of institution">
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" id="person" type="radio" name="one">
+          <label class="form-check-label" for="person">Student</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" id="person" type="radio" name="one">
+          <label class="form-check-label" for="person">Faculty</label>
+        </div>
+        <div class="form-check form-check-inline">
+          <input class="form-check-input" id="person" type="radio" name="one">
+          <label class="form-check-label" for="person">Graduate</label>
+        </div>
+        <div class="form-group">
+          <label for="dep">Department</label>
+          <input id="dep" class="form-control" type="text" name="" placeholder="Enter department">
+        </div>
+        <div class="form-group">
+          <label for="rev">Review</label>
+          <textarea id="rev" class="form-control" name="" rows="3"></textarea>
+        </div>
+        <button type="submit" class="btn btn-success btn-lg" name="">Save</button>
+    </form>
+    </div>
+
+    </body>
+</html>
